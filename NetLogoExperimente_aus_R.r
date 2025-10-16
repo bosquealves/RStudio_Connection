@@ -44,5 +44,15 @@ results <- run_experiment(
 )
 
 # brings error message while trying to write a temporrary file in MacOS
-# Link to potential solution: https://github.com/ocaml/opam/issues/3576
+# Link to potential solution: 
+# ask google: "var/folders cannot be found Rstudio MacOS"
+# https://github.com/ocaml/opam/issues/3576
 
+#PROBLEM!!!! headless mode läuft auch nicht von Console aus!
+./NetLogo_Console --headless \
+--model "models/Wolf_Sheep_Simple_5.nlogo" \
+--experiment "Wolf Sheep Simple model analysis" \
+--table -
+
+  
+  '/Applications/NetLogo 7.0.0/models/IABM Textbook/chapter 4/Wolf Sheep Simple 5.nlogox'
