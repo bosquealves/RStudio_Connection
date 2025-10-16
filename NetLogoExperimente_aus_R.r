@@ -49,6 +49,8 @@ results <- run_experiment(
 # https://github.com/ocaml/opam/issues/3576
 
 #PROBLEM!!!! headless mode läuft auch nicht von Console aus!
+# https://ccl.northwestern.edu/netlogo/behaviorspace.html
+
 ./NetLogo_Console --headless \
 --model "models/Wolf_Sheep_Simple_5.nlogo" \
 --experiment "Wolf Sheep Simple model analysis" \
